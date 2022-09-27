@@ -190,22 +190,25 @@ img {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-left: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-right: 5px;
 }
+
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 60px;
 }
