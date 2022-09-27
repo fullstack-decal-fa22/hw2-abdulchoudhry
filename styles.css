@@ -24,6 +24,9 @@ h2 {
 /* I decided to give each flag label a blue color once you hover over the flag name. */
 .label:hover {
   color: #002c84;
+  font-display: large;
+  font-style: oblique;
+  font-size: x-large;
 }
 
 .flag {
@@ -105,7 +108,6 @@ h2 {
 }
 
 /* Increasing the specificty of the color white, as shown in Lesson 3 of the DeCal website. */ 
-
 div #white {
   background-color: white;
 }
@@ -190,19 +192,17 @@ img {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 /* For margin practice */
 .flag1 {
   background-color: red;
-  margin-left: 5px;
+  margin-right: 10px;
 }
 
 .flag2 {
   background-color: blue;
-  margin-right: 5px;
+  margin-left: 10px;
 }
 
 /* For padding practice */
