@@ -32,6 +32,11 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
+}
+
+.red.threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -63,6 +68,10 @@ h2 {
   background-color: orange;
 }
 
+.red {
+  background-color: red;
+}
+
 .yellow {
   background-color: yellow;
 }
@@ -79,12 +88,20 @@ h2 {
   background-color: lightblue;
 }
 
+/* This specific blue below matches whats shown on the HW assignment page for the Luxemnbourg flag */
+
+.light-blue {
+  background-color: rgb(11, 141, 241);
+}
+
 .purple {
   background-color: purple;
 }
 
-.white {
-  background-color: #fff;
+/* Increasing the specificty of the color white, as shown in Lesson 3 of the DeCal website. */ 
+
+div #white {
+  background-color: white;
 }
 
 .black {
@@ -93,16 +110,25 @@ h2 {
 
 /* BEGIN QUESTION 2 */
 
+/* Since the height of the Thailand flag is 300px, I did 300/6 = 50px for the red and white colors, and
+since blue is twice as large as white and red in the flag, I just multiplied it by 2 to get 100px. */
+
 .thailand-red {
-  /* TODO */
+  height: 50px;
+  width: 500px;
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  height: 50px;
+  width: 500px;
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 100px;
+  width: 500px;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
