@@ -20,6 +20,12 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+
+/* I decided to give each flag label a blue color once you hover over the flag name. */
+.label:hover {
+  color: #002c84;
+}
+
 .flag {
   height: 300px;
   width: 500px;
